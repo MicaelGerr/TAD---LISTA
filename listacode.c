@@ -11,13 +11,6 @@ void mostra_lista(Lista* lista){
 	return;
 }
 
-static void mostrar_meu_saldo(void){
-
-
-
-}
-
-
 Lista* cria_lista(int capacidade){
 	Lista *lista;
 	lista = malloc(sizeof(Lista));
