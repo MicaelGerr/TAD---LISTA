@@ -2,8 +2,6 @@
 
 Este repositório contém a implementação de um **Tipo Abstrato de Dados (TAD) Lista** em linguagem **C**, utilizando **alocação dinâmica de memória**. O projeto foi desenvolvido com fins didáticos, sendo indicado para o estudo de ponteiros, estruturas, organização modular e algoritmos de ordenação.
 
----
-
 ## Estrutura de Dados
 
 A lista é representada pela estrutura `Lista`, composta por:
@@ -20,7 +18,6 @@ typedef struct lista{
 } Lista;
 ```
 
----
 
 ## Funções Disponíveis
 
@@ -35,7 +32,6 @@ typedef struct lista{
 * **`void preenche_lista(Lista* lista);`**
   Preenche a lista com valores (por exemplo, via entrada do usuário).
 
----
 
 ### Inserção de Elementos
 
@@ -45,7 +41,6 @@ typedef struct lista{
 * **`int adiciona_elementos(Lista* lista, int valor, int posicao);`**
   Insere um elemento em uma posição específica da lista.
 
----
 
 ### Remoção de Elementos
 
@@ -55,14 +50,12 @@ typedef struct lista{
 * **`int remove_elementos_fim(Lista* lista, int quantidade);`**
   Remove uma quantidade de elementos a partir do final da lista.
 
----
 
 ### Ordenação
 
 * **`int insertionSort(Lista* lista);`**
   Ordena os elementos da lista utilizando o algoritmo **Insertion Sort**.
 
----
 
 ## Exemplo de Uso
 
@@ -75,7 +68,6 @@ insertionSort(l);
 mostra_lista(l);
 ```
 
----
 
 ## Objetivos do Projeto
 
@@ -85,7 +77,6 @@ mostra_lista(l);
 * Compreender o funcionamento do algoritmo **Insertion Sort**
 * Organizar código em C de forma modular
 
----
 
 ## Tecnologias Utilizadas
 
@@ -93,7 +84,6 @@ mostra_lista(l);
 * GCC (GNU Compiler Collection)
 * Ambiente Linux
 
----
 
 ## Observações
 
@@ -101,7 +91,3 @@ Este projeto é voltado para aprendizado acadêmico e pode ser facilmente expand
 
 * Outros algoritmos de ordenação
 * Tratamento de erros mais robusto
-
----
-
-✍️ Desenvolvido para fins educacionais.
