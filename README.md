@@ -1,10 +1,10 @@
-# 📋 Lista Dinâmica em C
+# Lista Dinâmica em C
 
 Este repositório contém a implementação de um **Tipo Abstrato de Dados (TAD) Lista** em linguagem **C**, utilizando **alocação dinâmica de memória**. O projeto foi desenvolvido com fins didáticos, sendo indicado para o estudo de ponteiros, estruturas, organização modular e algoritmos de ordenação.
 
 ---
 
-## 🧱 Estrutura de Dados
+## Estrutura de Dados
 
 A lista é representada pela estrutura `Lista`, composta por:
 
@@ -22,9 +22,9 @@ typedef struct lista{
 
 ---
 
-## ⚙️ Funções Disponíveis
+## Funções Disponíveis
 
-### 🔹 Criação e Manipulação
+### Criação e Manipulação
 
 * **`Lista* cria_lista(int capacidade);`**
   Cria e inicializa uma lista com a capacidade informada.
@@ -37,7 +37,7 @@ typedef struct lista{
 
 ---
 
-### 🔹 Inserção de Elementos
+### Inserção de Elementos
 
 * **`int adiciona_elementos_fim(Lista* lista, int valor);`**
   Insere um elemento no final da lista.
@@ -47,7 +47,7 @@ typedef struct lista{
 
 ---
 
-### 🔹 Remoção de Elementos
+### Remoção de Elementos
 
 * **`int remove_elementos(Lista* lista, int posicao);`**
   Remove o elemento presente em uma posição específica.
@@ -57,14 +57,14 @@ typedef struct lista{
 
 ---
 
-### 🔹 Ordenação
+### Ordenação
 
 * **`int insertionSort(Lista* lista);`**
   Ordena os elementos da lista utilizando o algoritmo **Insertion Sort**.
 
 ---
 
-## 🧪 Exemplo de Uso
+## Exemplo de Uso
 
 ```c
 Lista *l = cria_lista(10);
@@ -77,7 +77,7 @@ mostra_lista(l);
 
 ---
 
-## 🎯 Objetivos do Projeto
+## Objetivos do Projeto
 
 * Praticar o uso de **ponteiros**
 * Trabalhar com **alocação dinâmica de memória**
@@ -87,7 +87,7 @@ mostra_lista(l);
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * Linguagem C
 * GCC (GNU Compiler Collection)
@@ -95,11 +95,10 @@ mostra_lista(l);
 
 ---
 
-## 📌 Observações
+## Observações
 
 Este projeto é voltado para aprendizado acadêmico e pode ser facilmente expandido para incluir:
 
-* Redimensionamento dinâmico da lista
 * Outros algoritmos de ordenação
 * Tratamento de erros mais robusto
 
